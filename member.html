@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS3 Property Basic</title>
+    <style>
+        @font-face {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        }
+        #nav {
+            float:right;
+            width: 260;
+        }
+        * {
+        font-family: "Pretendard-Regular";
+        color: white;
+        margin: 0;
+        padding: 0;
+        }
+
+        body {
+            background-color: #000;
+        }
+        .margin {
+            width: 960px;
+            margin: 0% auto;
+        }
+        a:link, a:visited {
+            background-color: none;
+            color: white;
+            padding: 15px 25px;
+            text-align:center;
+            text-decoration:none;
+            display: inline-block;
+        }
+        .logo {
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        li {
+            float: left;
+            list-style-type: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        li a:hover {
+            background-color:  #D25791;
+          }
+        li a:active {
+            background-color:  #D25791;
+        }
+        .photo {
+            padding-top: 20px;
+        }
+        table {
+            border-collapse: separate;
+        }
+        table img {
+            width: 90%;
+        }
+        .bgcolor {
+            background:  #D25791;
+        }
+        footer {
+            color: #8d8d8d;
+            background: #000;
+        }
+    </style>
+    </head>
+        <body>
+            <header class="margin">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./img/tvt.png" width="200px">
+                </a>
+            </div>
+            <div id="nav" list-style-type: none;>
+                <ul>
+                    <li><a href="introduce.html">Introduce</a></li>
+                    <li class="bgcolor"><a href="member.html">Member</a></li>
+                    <li><a href="album.html">Album</a></li>
+                    <li><a href="Performance.html">Performance</a></li>
+                    <li><a href="goods.html">Goods</a></li>
+                </ul>
+            </div>
+            </header>
+            <div class="margin">
+            <div class="photo">
+                <table style="width: 100%; text-align: center;">
+                    <tr>
+                        <td><img src="./img/yerin.jpg"> </td>
+                        <td><img src="./img/cloud.jpg"> </td>
+                        <td><img src="./img/Jonny.jpg"> </td>
+                        <td><img src="./img/chiheon.jpg"> </td>
+                    </tr> 
+                    <tr>
+                        <td> 백예린 <br> 보컬, 리듬, 기타 <br>생년월일: 1997년 6월 26일</td> <td>Cloud<br>베이스 기타, 백보컬 <br> 생년월일: 1991년 4월 6일</td>
+                        <td> Jonny <br> 리드 기타, 백보컬 <br>생년월일: 1991년 1월 31일</td> <td>김치헌 <br>드럼, 백보컬 <br>1991년 3월 6일</td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+            <div style="margin-top: 20px; text-align: center;">
+            <video src="tvtletmego.mp4" autoplay loop muted width="936.25px"></video>
+            </div>
+            <footer style="text-align: right; margin: 100px 30px 30px 0;">
+                Copyright ⓒ 2023 jwmoo74, All Right Reserved <br>
+                웹퍼블러싱 직무수행능력평가1 D 22361028 김정우 ｜ wkjnmw@kaywon.ac.kr
+            </footer>
+
+        </body>
+            
+</html>
